@@ -9,7 +9,7 @@
 }
 
 body{
-	background:blueviolet ;
+	background:#84889c ;
 }
  
 .content{
@@ -99,24 +99,28 @@ body{
 	font-size: 14px;
 	padding: 3px 20px;
 	border-radius: 3px;
-	color: #545871;
+	color:#545871;
 }
 
 .form_content .input_radio:checked ~ span{ 
-	background: #ebd0ce; 
+	background:chocolate; 
+	color: aliceblue;
  }
 
 .form_content .submit_btn{
 	width: 100%;
-	background: #ebd0ce;
+	background: #dcb418;
 	padding: 10px;
 	border: 0;
 	border-radius: 3px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	cursor: pointer;
+	color: black;
+	
 }
 
 .form_content .submit_btn:hover{
-	background: #ffd5d2;
+	background:chocolate;
+	color: aliceblue;
 }
